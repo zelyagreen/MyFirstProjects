@@ -1,0 +1,13 @@
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.exe
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.deps.json
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.runtimeconfig.json
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.runtimeconfig.dev.json
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.dll
+C:\Users\userg\source\repos\OtusOne\OtusOne\bin\Debug\netcoreapp3.1\OtusOne.pdb
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.csprojAssemblyReference.cache
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.AssemblyInfoInputs.cache
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.AssemblyInfo.cs
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.csproj.CoreCompileInputs.cache
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.dll
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.pdb
+C:\Users\userg\source\repos\OtusOne\OtusOne\obj\Debug\netcoreapp3.1\OtusOne.genruntimeconfig.cache
