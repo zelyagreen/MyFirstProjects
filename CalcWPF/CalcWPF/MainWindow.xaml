@@ -1,0 +1,64 @@
+﻿<Window x:Class="CalcWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Buttons -->
+        <Button Grid.Row="3" Grid.Column="0" x:Name="button_7" Click="button_takedNum_Click">7</Button>
+        <Button Grid.Row="3" Grid.Column="1" x:Name="button_8" Click="button_takedNum_Click">8</Button>
+        <Button Grid.Row="3" Grid.Column="2" x:Name="button_9" Click="button_takedNum_Click">9</Button>
+
+        <Button Grid.Row="4" Grid.Column="0" x:Name="button_4" Click="button_takedNum_Click">4</Button>
+        <Button Grid.Row="4" Grid.Column="1" x:Name="button_5" Click="button_takedNum_Click">5</Button>
+        <Button Grid.Row="4" Grid.Column="2" x:Name="button_6" Click="button_takedNum_Click">6</Button>
+
+        <Button Grid.Row="5" Grid.Column="0" x:Name="button_1" Click="button_takedNum_Click">1</Button>
+        <Button Grid.Row="5" Grid.Column="1" x:Name="button_2" Click="button_takedNum_Click">2</Button>
+        <Button Grid.Row="5" Grid.Column="2" x:Name="button_3" Click="button_takedNum_Click">3</Button>
+
+        <Button Grid.Row="6" Grid.Column="1" x:Name="button_0" Click="button_takedNum_Click">0</Button>
+
+        <!-- operation -->
+        <Button Grid.Row="1" Grid.Column="0" x:Name="button_min" Click="button_takedOp_Click">min</Button>
+        <Button Grid.Row="1" Grid.Column="1" x:Name="button_max" Click="button_takedOp_Click">max</Button>
+        <Button Grid.Row="1" Grid.Column="2" x:Name="button_avg" Click="button_takedOp_Click">avg</Button>
+        <Button Grid.Row="1" Grid.Column="3" x:Name="button_pow" Click="button_takedOp_Click">x^y</Button>
+
+        <Button Grid.Row="2" Grid.Column="3" x:Name="button_div" Click="button_takedOp_Click">/</Button>
+        <Button Grid.Row="3" Grid.Column="3" x:Name="button_mult" Click="button_takedOp_Click">*</Button>
+        <Button Grid.Row="4" Grid.Column="3" x:Name="button_minus" Click="button_takedOp_Click">-</Button>
+        <Button Grid.Row="5" Grid.Column="3" x:Name="button_plus" Click="button_takedOp_Click">+</Button>
+        <Button Grid.Row="6" Grid.Column="3" x:Name="button_eq" Click="button_eq_Click">=</Button>
+
+        <Button Grid.Row="6" Grid.Column="2" x:Name="button_comma" Click="button_comma_Click">,</Button>
+        <Button Grid.Row="6" Grid.Column="0" x:Name="button_plusMin" Click="button_plusMin_Click">+/-</Button>
+        
+        <!--Clear buttons-->
+        <Button Grid.Row="2" Grid.Column="0" x:Name="button_C" Click="button_C_Click">C</Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="button_CE" Click="button_CE_Click">CE</Button>
+        <Button Grid.Row="2" Grid.Column="2" x:Name="button_backspace" Click="button_backspace_Click">←</Button>
+        
+        <!-- TextBox -->
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" TextAlignment="Right" VerticalAlignment="Bottom" FontSize="50" x:Name="txtValue">0</TextBox>
+    </Grid>
+</Window>

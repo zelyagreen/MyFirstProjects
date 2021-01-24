@@ -1,0 +1,15 @@
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\bin\Debug\CalcWPF.exe.config
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\bin\Debug\CalcWPF.exe
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\bin\Debug\CalcWPF.pdb
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\MainWindow.g.cs
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\App.g.cs
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\MainWindow.baml
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.g.resources
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.csproj.CoreCompileInputs.cache
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.exe
+C:\Users\userg\source\repos\CalcWPF\CalcWPF\obj\Debug\CalcWPF.pdb
