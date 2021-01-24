@@ -25,7 +25,7 @@ namespace OtusOne
 
         static bool AskContinue()
         {
-            while (true) 
+            while (true)
             {
                 Console.WriteLine("Do you want to continue? Y/N");
                 string askStatus = Console.ReadLine();
@@ -40,44 +40,44 @@ namespace OtusOne
             }
         }
 
-        private static int GetResult(int NumberOne, int NumberTwo, string HowCalculate)
+        private static int GetResult(int numberOne, int numberTwo, string howCalculate)
         {
-            int ResultCalculate;
-            switch (HowCalculate)
+            int resultCalculate;
+            switch (howCalculate)
             {
                 case "+":
-                    ResultCalculate = NumberOne + NumberTwo;
+                    resultCalculate = numberOne + numberTwo;
                     break;
                 case "-":
-                    ResultCalculate = NumberOne - NumberTwo;
+                    resultCalculate = numberOne - numberTwo;
                     break;
                 case "*":
-                    ResultCalculate = NumberOne * NumberTwo;
+                    resultCalculate = numberOne * numberTwo;
                     break;
                 case "/":
                     try
                     {
-                        ResultCalculate = NumberOne / NumberTwo;
+                        resultCalculate = numberOne / numberTwo;
                     }
                     catch (DivideByZeroException)
                     {
-                        ResultCalculate = 0;
+                        resultCalculate = 0;
                         Console.WriteLine("You cannot divide by 0");
                     }
                     break;
                 case "max":
-                    ResultCalculate = GetMax(NumberOne, NumberTwo);
+                    resultCalculate = Math.Max(numberOne, numberTwo);
                     break;
                 case "min":
-                    ResultCalculate = GetMin(NumberOne, NumberTwo);
+                    resultCalculate = Math.Min(numberOne, numberTwo);
                     break;
 
                 default:
                     Console.WriteLine("Enter correct Value...");
-                    ResultCalculate = 0;
+                    resultCalculate = 0;
                     break;
             }
-            return ResultCalculate;
+            return resultCalculate;
         }
 
         private static int GetNumber(string readNumber)
@@ -87,9 +87,9 @@ namespace OtusOne
             while (true)
             {
                 string intNumber = Console.ReadLine();
-                int ResultCalculate;
-                if (Int32.TryParse(intNumber, out ResultCalculate))
-                    return ResultCalculate;
+                int resultCalculate;
+                if (Int32.TryParse(intNumber, out resultCalculate))
+                    return resultCalculate;
                 else
                 {
                     Console.WriteLine("Enter correct Value...");
@@ -98,26 +98,7 @@ namespace OtusOne
 
         }
 
-        static int GetMax(int numberOne, int numberTwo)
-        {
-            int maxValue = 0;
-            if (numberOne > numberTwo)
-                maxValue = numberOne;
-            else
-            {
-                maxValue = numberTwo;
-            }
-            return maxValue;
-        }
 
-        static int GetMin(int numberOne, int numberTwo)
-        {
-            int minValue = 0;
-            if (numberOne < numberTwo)
-                minValue = numberOne;
-            else
-                minValue = numberTwo;
-            return minValue;
-        }
     }
 }
+
